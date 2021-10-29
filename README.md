@@ -7,7 +7,7 @@ They are predetermined and cannot be changed unless added to or changed complete
 In future versions, I want to:
   - allow the user to update the workout plans whenever they want.
     - types of exercises
-    - # of reps and sets
+    - numbers of reps and sets
     - rest time 
   - create a gui so that you have a screen to look at and not the console
   - use sounds (i.e to signal end of rest time)
