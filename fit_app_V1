@@ -1,0 +1,115 @@
+# Name: Sohaib Ahmed, @sohaibahmed7
+# Date: October 28th, 2021
+# Title: My Workout Application Project
+
+# Importing Libraries
+import time
+from time import sleep
+
+
+def pushDay():  # Exercises for Push Day
+    print("Exercise #1: Decline Close Grip Pushups | 15 Reps x 4 Sets")
+    for i in range(4):
+        input("Set #" + str(i+1) + ": Enter any key when done. ")
+        print("2 Minutes of rest")
+        sleep(120)
+        print("")
+
+    print("Exercise #2: DB Lateral Raises | 20 Reps x 4 Sets")
+    for i in range(4):
+        input("Set #" + str(i+1) + ": Enter any key when done. ")
+        print("1 Minute 30 Seconds of rest")
+        sleep(90)
+        print("")
+
+    print("Exercise #3: Close Grip Pushups | 15 Reps x 4 Sets")
+    for i in range(4):
+        input("Set #" + str(i+1) + ": Enter any key when done. ")
+        print("2 Minutes of rest")
+        sleep(120)
+        print("")
+
+    print("Exercise #4: RB Tricep Extension | 20 Reps x 4 Sets")
+    for i in range(4):
+        input("Set #" + str(i+1) + ": Enter any key when done. ")
+        print("1 Minute 30 Seconds of rest")
+        sleep(90)
+        print("")
+
+
+def pullDay():  # Exercises for Pull Day
+    print("Exercise #1: DB & RB Standing Rows | 15 Reps x 4 Sets")
+    for i in range(4):
+        input("Set #" + str(i+1) + ": Enter any key when done. ")
+        print("2 Minutes of rest")
+        sleep(120)
+        print("")
+
+    print("Exercise #2: DB Reverse Flyes | 20 Reps x 3 Sets")
+    for i in range(4):
+        input("Set #" + str(i+1) + ": Enter any key when done. ")
+        print("2 Minutes of rest")
+        sleep(120)
+        print("")
+
+    print("Exercise #3: Incline DB Curls | 20 Reps x 4 Sets")
+    for i in range(4):
+        input("Set #" + str(i+1) + ": Enter any key when done. ")
+        print("2 Minutes of rest")
+        sleep(120)
+        print("")
+
+    print("Exercise #4: DB Hammer Curls | 20 Reps x 4 Sets")
+    for i in range(4):
+        input("Set #" + str(i+1) + ": Enter any key when done. ")
+        print("2 Minutes of rest")
+        sleep(120)
+        print("")
+
+
+def legDay():  # Exercises for Leg Day
+    print("Exercise #1: DB Squats | 15 Reps x 4 Sets")
+    for i in range(4):
+        input("Set #" + str(i+1) + ": Enter any key when done. ")
+        print("2 Minutes of rest")
+        sleep(120)
+        print("")
+
+    print("Exercise #2: DB Bulgarian Split Squats | 15 Reps x 3 Sets")
+    for i in range(4):
+        input("Set #" + str(i+1) + ": Enter any key when done. ")
+        print("1 Minute 30 Seconds of rest")
+        sleep(90)
+        print("")
+
+    print("Exercise #3: BW Calf Raises | 20 Reps x 4 Sets")
+    for i in range(4):
+        input("Set #" + str(i+1) + ": Enter any key when done. ")
+        print("2 Minutes of rest")
+        sleep(120)
+        print("")
+
+    print("Exercise #4: DB Lunges | 15 Reps x 4 Sets")
+    for i in range(4):
+        input("Set #" + str(i+1) + ": Enter any key when done. ")
+        print("2 Minutes of rest")
+        sleep(120)
+        print("")
+
+
+def welcome():  # Starting function
+    print("1 = Push | 2 = Pull | 3 = Legs")
+    start = input("What would you like to workout? ")
+
+    if (start == "1"):
+        pushDay()
+    elif (start == "2"):
+        pullDay()
+    elif (start == "3"):
+        legDay()
+    else:
+        print("Try again.")
+        welcome()
+
+
+welcome()
