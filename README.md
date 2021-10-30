@@ -1,4 +1,7 @@
 # Version 1
+
+fit_app_V1
+
 My own workout app, starting from the very basics of my programming knowledge and improving as I learn new things.
 
 The first version is very repetitive and simple. It has mutliple functions that act as each day of exercises.
@@ -13,6 +16,9 @@ In future versions, I want to:
   - use sounds (i.e to signal end of rest time)
 
 # Version 2
+
+
+
 In this version, I revamped the entire program by introducing the use of .txt files which hold the contents for each workout
 (i.e exercise name, # of sets, amount of rest time)
 
