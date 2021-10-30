@@ -17,7 +17,7 @@ In future versions, I want to:
 
 # Version 2
 
-
+WorkoutApp_2.py
 
 In this version, I revamped the entire program by introducing the use of .txt files which hold the contents for each workout
 (i.e exercise name, # of sets, amount of rest time)
