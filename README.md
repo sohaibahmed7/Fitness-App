@@ -1,4 +1,4 @@
-# Fitness-App
+# Version 1
 My own workout app, starting from the very basics of my programming knowledge and improving as I learn new things.
 
 The first version is very repetitive and simple. It has mutliple functions that act as each day of exercises.
