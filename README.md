@@ -28,3 +28,17 @@ However the program is not complete, I still want to:
 - allow the user to make changes within the application itself
 - create a gui so that you have a screen to look at and not the console
 - use sounds (i.e to signal end of rest time)
+
+# Version 3
+
+WorkoutApp_3.py
+
+In this version, I developed the basis for a GUI implementation of my app. 
+
+It still uses .txt files to hold the contents for each workout which makes it easily editible.
+
+Of course, the program is still not complete, in the next version I want to:
+- add sounds, dynamic changes in colour, animations
+- allow the user to make file changes within the app
+- further exercise options
+- and more...
