@@ -42,3 +42,8 @@ Of course, the program is still not complete, in the next version I want to:
 - allow the user to make file changes within the app
 - further exercise options
 - and more...
+
+# Screenshots of current App
+![homescreen](https://user-images.githubusercontent.com/84984813/158722403-8f256d1c-5e9c-4a04-9464-69f2f7ab582a.jpg)
+![exercisescreen](https://user-images.githubusercontent.com/84984813/158722406-0395db83-728f-4a7c-bcc9-46ce3897f13b.jpg)
+![restscreen](https://user-images.githubusercontent.com/84984813/158722404-cd50830f-bdd0-40fb-ad89-515c7b15389e.jpg)
